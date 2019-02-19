@@ -1339,9 +1339,9 @@ h1.intro-header::before {
   #header-nav-wrap {
     display: none;
     height: auto;
-    width: 100%;/*
+    width: 100%;
     right: auto;
-    left: 0;*/
+    left: 0;
     background-color: #111111;
     padding: 120px 40px 54px;
   }
@@ -1349,7 +1349,7 @@ h1.intro-header::before {
     display: block;
     height: auto;
     margin: 0 0 4.2rem 0;
-    opacity: 0;
+    opacity: 1;
     border-top: 1px solid rgba(255, 255, 255, 0.03);
   }
   #header-nav-wrap .header-main-nav li {
@@ -1357,10 +1357,12 @@ h1.intro-header::before {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    color: white;
   }
   #header-nav-wrap .header-main-nav li a {
     padding: 18px 0;
     line-height: 18px;
+    color: white;
   }
   #header-nav-wrap .cta {
     height: 42px;
