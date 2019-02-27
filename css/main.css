@@ -1295,14 +1295,17 @@ h1.intro-header::before {
   color: rgba(255, 255, 255, 0.45);
 }
 
-#header-nav-wrap .header-main-nav li a:hover,
-#header-nav-wrap .header-main-nav li a:focus {
+#header-nav-wrap .header-main-nav li a:hover{
   color: #ffffff;
 }
 
-#header-nav-wrap .header-main-nav li.current a {
-  color: #ffffff;
+#header-nav-wrap .header-main-nav li a:focus {
+  color: rgba(255, 255, 255, 0.45);
 }
+
+/* #header-nav-wrap .header-main-nav li.current a {
+  color: rgba(255, 255, 255, 0.45);
+} */
 
 #header-nav-wrap .cta {
   height: 3.6rem;
